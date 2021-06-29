@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="photo"
+            type="com.interview.task.dto.Photo"/>
+
+
+        <variable
+            name="listener"
+            type="com.interview.task.module.main.ImagesAdapter.OnPhotoClickListener" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item_reminder_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_bg_grey"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginStart="@dimen/dp_10"
+        android:onClick="@{()-> listener.photoClicked(photo)}"
+        >
+
+        <ImageView
+            android:id="@+id/image_vw"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_100"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_baseline_image_24"
+            />
+
+        <TextView
+            android:id="@+id/image_title_tv"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/image_vw"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/image_vw"
+            android:textColor="@color/white_op_100"
+            android:background="@color/black"
+            android:scrollbars="vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:text="@{photo.title}"
+            android:singleLine="true"
+            android:paddingStart="@dimen/dp_4"
+            android:paddingTop="@dimen/dp_4"
+            android:paddingBottom="@dimen/dp_4"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

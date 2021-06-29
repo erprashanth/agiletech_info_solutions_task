@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#3BDD03</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#038ADD</color>-->
+
+    <color name="colorPrimary">#26a69a</color>
+    <color name="colorPrimaryDark">#19756D</color>
+    <color name="colorAccent">#00000b</color>
+
+    <color name="background_color">#022045</color>
+
+    <color name="black">#000000</color>
+    <color name="empty_list_alert">#E6000000</color>
+    <color name="hint_color">#616161</color>
+    <color name="white_op_95">#F2FFFFFF</color>
+    <color name="gray_op_98">#FFFAFAFA</color>
+    <color name="white_op_90">#E6FFFFFF</color>
+    <color name="white_op_80">#CCFFFFFF</color>
+    <color name="white_op_75">#BFFFFFFF</color>
+    <color name="white_op_50">#80FFFFFF</color>
+    <color name="white_op_35">#59FFFFFF</color>
+    <color name="white_op_25">#40FFFFFF</color>
+    <color name="white_op_20">#33FFFFFF</color>
+    <color name="black_op_90">#E6000000</color>
+    <color name="black_op_87">#DA000000</color>
+    <color name="black_op_80">#CC000000</color>
+    <color name="black_op_75">#BF000000</color>
+    <color name="black_op_70">#B3000000</color>
+    <color name="black_op_60">#99000000</color>
+    <color name="black_op_50">#80000000</color>
+    <color name="black_op_40">#66000000</color>
+    <color name="black_op_30">#4D000000</color>
+    <color name="black_op_20">#32000000</color>
+    <color name="black_op_15">#27000000</color>
+    <color name="black_op_12">#24000000</color>
+    <color name="black_op_10">#1A000000</color>
+    <color name="chelsea_cucumber">#78a652</color>
+    <color name="chelsea_cucumber_op_20">#3278a652</color>
+    <color name="black_op_100">#ff000000</color>
+    <color name="white_op_100">#ffffffff</color>
+    <color name="gray">#fafafa</color>
+    <color name="grey">#d3d3d3</color>
+    <color name="white_op_70">#b3ffffff</color>
+    <color name="blue_charcoal_op_100">#000712</color>
+    <color name="green_fill">#648d44</color>
+    <color name="green_fill_op_20">#E0EAD9</color>
+    <color name="green_chasel">#5e8b3d</color>
+    <color name="parttransperent">#DD000000</color>
+    <color name="set_overlay">#F4F4F4</color>
+    <color name="white">#ffffffff</color>
+    <color name="red">#BC0B0B</color>
+
+
+    //AppSpecific Colors
+
+    //Common
+    <color name="gold">#ffd500</color>
+    <color name="gold_op_20">#32ffd500</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="silver_20">#32C0C0C0</color>
+
+    //Login
+    <color name="loginBottomView">#0C50BB</color>
+    <color name="jugle_green">#26a69a</color>
+
+    <color name="apple">#4FA83D</color>
+
+    <color name="bright_red">#B10000</color>
+    <color name="grey_bg">#706A6A</color>
+
+</resources>
