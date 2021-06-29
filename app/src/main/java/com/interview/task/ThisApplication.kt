@@ -18,7 +18,7 @@ class ThisApplication : MultiDexApplication() {
     /**
      * Checking the internet connectivity
      *
-     * @return true if the connection is available otherwise false
+     * @return true if the connection is available otherwise return false
      */
     fun hasNetworkConnection(): Boolean {
 
